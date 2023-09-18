@@ -8,16 +8,45 @@ nav {
   background-color: whitesmoke;
 }
 
+.nav-wrapper {
+  padding: 0 40px;
+}
+
 .brand-logo img {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 18px;
+  left: 18px;
 }
 
 .nav-wrapper ul li a {
-  color: rgb(74, 74, 74);
+  color: rgb(183, 175, 175);
 }
 
 #dropdown1 li a i {
-  color: rgb(74, 74, 74);
+  color: rgb(183, 175, 175);
+}
+
+.list li:hover {
+  background-color: #171717;
+}
+
+.section1 {
+  height: 100vh;
+}
+
+.section1 h1 {
+  position: absolute;
+  top: 45%;
+  left: 38.5%; */
+}
+
+@media screen and (max-width: 900px) {
+  .navbar-fixed {
+    padding: 0;
+  }
+  
+  .section1 h1 {
+    top: 40%;
+    left: 31%;
+  }
 }
