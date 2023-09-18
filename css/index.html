@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Likha Art Studio</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <!-- Navigation Bar Shown on Large Screens -->
+          <a href="#!" class="brand-logo left"
+            ><img src="/images/Likha.png" alt="" width="50px"
+          /></a>
+          <a
+            href=""
+            class="brand-logo center black-text hidde on hide-on-med-and-down"
+            ><h5>Likha Art Studio</h5></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li class=""><a href="sass.html">About</a></li>
+            <li class="dropdown-trigger" data-target="dropdown1">
+              <a href="badges.html">Contact</a>
+            </li>
+          </ul>
+
+          <!-- Dropdown Menu -->
+          <ul id="dropdown1" class="dropdown-content">
+            <li class="">
+              <a href="#!" class=""
+                ><i class="material-icons">facebook </i><span>Facebook</span>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Navigation Bar Shown on Medium and Small Screen -->
+          <a
+            href=""
+            class="sidenav-trigger brand-logo center hide-on-large-only right"
+            data-target="sidenav1"
+            ><i class="material-icons black-text">menu</i></a
+          >
+        </div>
+      </nav>
+    </div>
+
+    <!-- Side Navigation -->
+    <ul class="sidenav user-view" id="sidenav1">
+      <div class="user-view">
+        <a href="#!" class="sidenav-close right black-text"
+          ><i class="material-icons">close</i></a
+        >
+        <h6>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+          tenetur id atque? Tempora aut sequi voluptatem similique aliquam,
+          expedita veniam, aspernatur cumque placeat voluptas minus nobis neque!
+          Delectus, a earum.
+        </h6>
+      </div>
+      <li>
+        <a href="https://google.com" class=""><span>tanginamo</span></a>
+      </li>
+      <li>
+        <a href=""><span>tanginamodin</span></a>
+      </li>
+    </ul>
+
+    <div class="container"></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav({
+          edge: "right",
+        });
+      });
+      $(".sidenav-close").sidenav().close;
+      $(".dropdown-trigger").dropdown();
+    </script>
+  </body>
+</html>

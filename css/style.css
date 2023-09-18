@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #171717;
+}
+
+nav {
+  background-color: whitesmoke;
+}
+
+.brand-logo img {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.nav-wrapper ul li a {
+  color: rgb(74, 74, 74);
+}
+
+#dropdown1 li a i {
+  color: rgb(74, 74, 74);
+}
