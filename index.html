@@ -40,7 +40,7 @@
             href=""
             class="sidenav-trigger brand-logo center hide-on-large-only right"
             data-target="sidenav1"
-            ><i class="material-icons white-text">menu</i></a
+            ><i class="menu material-icons white-text">menu</i></a
           >
         </div>
       </nav>
@@ -68,16 +68,18 @@
     </ul>
 
     <div class="section1 parallax-container">
-      <div class="parallax"><img src="1312296.jpeg" alt="" /></div>
+      <div class="parallax">
+        <img src="1312296.jpeg" alt="" />
+      </div>
       <h2 class="white-text hide-on-med-and-down">
         <em>"Guhit, Pinta, <b>Likha</b>"</em>
       </h2>
-      <h3 class="white-text show-on-small">
+      <h3 class="white-text hide-on-large-only hide-on-extra-large-only">
         <em>"Guhit, Pinta, <b>Likha</b>"</em>
       </h3>
     </div>
 
-    <div class="container">
+    <div class="section1Description">
       <p class="white-text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam modi
         magni quo exercitationem maiores rerum doloremque pariatur ipsam qui
@@ -114,6 +116,7 @@
         accusamus temporibus animi, dicta, id consequuntur esse minus?
       </p>
     </div>
+
     <script src="js/jquery.js"></script>
     <script src="js/materialize.min.js"></script>
     <script>
@@ -126,6 +129,9 @@
       $(".dropdown-trigger").dropdown();
       $(document).ready(function () {
         $(".parallax").parallax();
+      });
+      $(document).ready(function () {
+        $(".carousel").carousel();
       });
     </script>
   </body>

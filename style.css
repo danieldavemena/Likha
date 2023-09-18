@@ -18,6 +18,12 @@ nav {
   left: 18px;
 }
 
+.menu {
+  position: absolute;
+  right: -20px;
+  font-size: 40px !important;
+}
+
 .nav-wrapper ul li a {
   color: rgb(183, 175, 175);
 }
@@ -38,8 +44,14 @@ nav {
   align-items: center;
 }
 
-@media screen and (max-width: 900px) {
-  .navbar-fixed {
-    padding: 0;
+.section1Description {
+  margin: 75px;
+}
+
+@media screen and (max-width: 600px) {
+  .brand-logo img {
+    position: absolute;
+    top: 15px;
+    left: 16px;
   }
 }
