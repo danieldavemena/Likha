@@ -1,3 +1,12 @@
+@keyframes slide {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-1366px); /* The image width */
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -24,6 +33,28 @@ nav {
   font-size: 40px !important;
 }
 
+.closeButton {
+  position: absolute;
+  top: 6px;
+  right: 20px;
+  font-size: 40px !important;
+}
+
+.sidenav {
+  background-color: #171717;
+}
+
+.choices {
+  padding-top: 50px;
+}
+
+.choices li a {
+  color: white;
+}
+
+.choices li:hover {
+  background-color: white;
+}
 .nav-wrapper ul li a {
   color: rgb(183, 175, 175);
 }
@@ -53,5 +84,9 @@ nav {
     position: absolute;
     top: 15px;
     left: 16px;
+  }
+
+  .section1 {
+    height: 75vh;
   }
 }
