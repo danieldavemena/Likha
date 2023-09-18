@@ -35,7 +35,7 @@ nav {
 
 .closeButton {
   position: absolute;
-  top: 6px;
+  top: 15px;
   right: 20px;
   font-size: 40px !important;
 }
@@ -49,11 +49,11 @@ nav {
 }
 
 .choices li a {
-  color: white;
+  color: rgb(183, 175, 175);
 }
 
 .choices li:hover {
-  background-color: white;
+  background-color: #171717;
 }
 .nav-wrapper ul li a {
   color: rgb(183, 175, 175);
