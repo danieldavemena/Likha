@@ -13,9 +13,7 @@ body {
   background-color: #171717;
 }
 
-nav {
-  background-color: whitesmoke;
-}
+/* Navigation Bar */
 
 .nav-wrapper {
   padding: 0 40px;
@@ -28,11 +26,22 @@ nav {
   left: 18px;
 }
 
+/* On Large Screens */
+.list li a {
+  color: white !important;
+}
+.list li:hover {
+  background-color: #171717;
+}
+
+/* On Small Screens */
 .menu {
   position: absolute;
   right: -20px;
   font-size: 40px !important;
 }
+
+/* Inside Side Navigation */
 
 .closeButton {
   position: absolute;
@@ -54,20 +63,11 @@ nav {
 }
 
 .choices li:hover {
-  background-color: #171717;
-}
-.nav-wrapper ul li a {
-  color: rgb(183, 175, 175);
+  background-color: #996e44ff;
+  transition: 300ms ease-in-out;
 }
 
-#dropdown1 li a i {
-  color: rgb(183, 175, 175);
-}
-
-.list li:hover {
-  background-color: #171717;
-}
-
+/* Parallax Container */
 .section1 {
   margin-top: -70px;
   height: 100vh;
@@ -76,7 +76,20 @@ nav {
   align-items: center;
 }
 
+/* Description Design */
+.section1Description div {
+  position: absolute;
+  left: 0;
+}
+
+.section1Description div img {
+  position: relative;
+  margin-top: -20rem;
+}
+
+/* Description 1 */
 .section1Description {
+  text-align: justify;
   margin: 75px;
 }
 
