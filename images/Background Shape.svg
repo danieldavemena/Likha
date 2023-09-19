@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.33952585"
-     inkscape:cx="331.34443"
-     inkscape:cy="580.22092"
+     inkscape:cx="139.90098"
+     inkscape:cy="424.12087"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -49,17 +49,5 @@
        style="fill:#171717;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:0.412281"
        d="M -39.742924,88.057851 3.3333332e-6,203.2 H 361.42083 v -31.75982 c 0,0 77.36503,-105.828325 0,-108.610674 C 336.28044,61.92536 221.73457,88.001013 176.1156,61.856841 144.80087,43.910409 121.70541,21.598608 64.051177,26.859319 18.576827,31.008666 -39.742924,88.057851 -39.742924,88.057851 Z"
        sodipodi:nodetypes="ccccsssc" />
-    <circle
-       style="fill:#996e44;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-opacity:0.412281"
-       id="path10504"
-       cx="361.42084"
-       cy="195.11276"
-       r="71.693123" />
-    <circle
-       style="fill:#996e44;fill-opacity:0.66440672;stroke:#000000;stroke-width:0;stroke-opacity:0.412281"
-       id="circle16451"
-       cx="3.3333331e-06"
-       cy="173.29312"
-       r="71.693123" />
   </g>
 </svg>

@@ -8,9 +8,10 @@
 }
 
 body {
+  width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #996e44ff;
+  background-color: #171717;
 }
 
 /* Navigation Bar */
@@ -55,11 +56,13 @@ body {
 }
 
 .choices {
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .choices li a {
-  color: rgb(183, 175, 175);
+  padding-bottom: 60px;
+  font-size: 1.4rem;
+  color: white;
 }
 
 .choices li:hover {
@@ -81,15 +84,20 @@ body {
   mix-blend-mode: difference;
 }
 
+.section1 h3 {
+  margin-top: -5rem;
+  mix-blend-mode: difference;
+}
+
 /* Description Design */
 .shape {
   position: absolute;
-  left: 0;
+  left: 50;
 }
 
 .shape img {
   position: relative;
-  margin-top: -20rem;
+  margin-top: -19rem;
   width: 100%;
 }
 
@@ -97,7 +105,6 @@ body {
 .section1Description {
   position: absolute;
   text-align: justify;
-
   padding: 30px 75px;
 }
 
@@ -112,9 +119,9 @@ body {
     height: 75vh;
   }
 
-  .shape img {
-    position: relative;
-    margin-top: -10rem;
-    width: 100%;
+  .section1Description {
+    position: absolute;
+    text-align: justify;
+    padding: 20px 30px;
   }
 }
