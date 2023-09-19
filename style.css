@@ -10,7 +10,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #171717;
+  background-color: #996e44ff;
 }
 
 /* Navigation Bar */
@@ -76,21 +76,29 @@ body {
   align-items: center;
 }
 
+.section1 h2 {
+  margin-top: -5rem;
+  mix-blend-mode: difference;
+}
+
 /* Description Design */
-.section1Description div {
+.shape {
   position: absolute;
   left: 0;
 }
 
-.section1Description div img {
+.shape img {
   position: relative;
   margin-top: -20rem;
+  width: 100%;
 }
 
 /* Description 1 */
 .section1Description {
+  position: absolute;
   text-align: justify;
-  margin: 75px;
+
+  padding: 30px 75px;
 }
 
 @media screen and (max-width: 600px) {
@@ -102,5 +110,11 @@ body {
 
   .section1 {
     height: 75vh;
+  }
+
+  .shape img {
+    position: relative;
+    margin-top: -10rem;
+    width: 100%;
   }
 }
