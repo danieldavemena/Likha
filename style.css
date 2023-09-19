@@ -82,6 +82,17 @@ body {
 .section1 h2 {
   margin-top: -5rem;
   mix-blend-mode: difference;
+  transition: 100ms ease-in-out;
+}
+
+.section1 h2:hover {
+  border-radius: 50px;
+  background-color: #996e44ff;
+  padding: 10px 20%;
+  mix-blend-mode: normal;
+  transform: translateY(-10px);
+
+  transition: 100ms ease-in-out;
 }
 
 .section1 h3 {
@@ -104,8 +115,19 @@ body {
 /* Description 1 */
 .section1Description {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: justify;
-  padding: 30px 75px;
+  padding: 75px 75px;
+}
+
+footer {
+  display: flex;
+  background-color: #996e44ff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -122,6 +144,6 @@ body {
   .section1Description {
     position: absolute;
     text-align: justify;
-    padding: 20px 30px;
+    padding: 20px 30px 100px 30px;
   }
 }
