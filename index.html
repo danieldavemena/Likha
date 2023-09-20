@@ -12,110 +12,34 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="curtainAnimation">
-      <div></div>
-    </div>
-
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <!-- Navigation Bar Shown on Large Screens -->
-          <a href="/index.html" class="brand-logo left"
-            ><img src="/images/LikhaLogo1.svg" alt="" height="26px"
-          /></a>
-          <ul class="list right hide-on-med-and-down">
-            <li class=""><a href="/about.html">About</a></li>
-            <li><a href="">Projects</a></li>
-            <li class=""><a href="#!">Contact</a></li>
-          </ul>
-
-          <!-- Navigation Bar Shown on Medium and Small Screen -->
-          <a
-            href=""
-            class="sidenav-trigger brand-logo center hide-on-large-only right"
-            data-target="sidenav1"
-            ><i class="menu material-icons white-text">menu</i></a
-          >
-        </div>
-      </nav>
-    </div>
-
-    <!-- Side Navigation -->
-    <ul class="sidenav" id="sidenav1">
-      <div class="user-view">
-        <a href="#!" class="sidenav-close right white-text"
-          ><i class="closeButton material-icons">close</i></a
-        >
+    <div class="container welcomePage">
+      <div class="welcomeMessage">
+        <a href="" class="brand-logo"
+          ><img src="/images/LikhaLogo1.svg" alt="" width="300px"
+        /></a>
+        <p class="white-text right-align">Art Studio</p>
       </div>
-      <div class="choices right-align medium">
-        <li>
-          <a href="/about.html" class=""><span>About</span></a>
-        </li>
-        <li>
-          <a href="#!"><span>Projects</span></a>
-        </li>
-        <li>
-          <a href="#!"><span>Contact</span></a>
-        </li>
+
+      <div class="links">
+        <ul class="">
+          <li>
+            <a href=""
+              ><img src="/images/facebook.svg" alt="" width="50px"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="/images/instagram.svg" alt="" width="50px"
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="/images/gmail.svg" alt="" width="50px" /></a>
+          </li>
+        </ul>
       </div>
-    </ul>
-
-    <!-- Parallax Welcome Message -->
-    <div class="section1 parallax-container">
-      <div class="parallax center">
-        <img src="/images/ParallaxBG.jpg" alt="" width="1366" />
-      </div>
-      <h2 class="white-text hide-on-med-and-down">
-        <em>"Guhit, Pinta, <b>Likha</b>"</em>
-      </h2>
-      <h3 class="white-text hide-on-large-only hide-on-extra-large-only">
-        <em>"Guhit, Pinta, <b>Likha</b>"</em>
-      </h3>
     </div>
 
-    <div class="shape">
-      <img src="/images/Background Shape.svg" alt="" />
-    </div>
-
-    <div class="section1Description">
-      <span class="white-text">
-        Welcome to our portfolio! We are a group of talented artists from the
-        Philippines who are passionate about creating beautiful and unique
-        artworks. At our website, we specialize in offering art commissions.
-        Whether you're looking for a personalized portrait, a custom
-        illustration, or a stunning piece of digital art, our team of skilled
-        artists is here to bring your vision to life. We pride ourselves on
-        delivering high-quality and professional artworks that truly capture the
-        essence of the subject. With years of experience and a diverse range of
-        artistic styles, we are able to cater to a wide range of preferences and
-        requirements. Our goal is to create artwork that not only exceeds your
-        expectations but also evokes emotions and tells a story. We understand
-        that every commission is unique, and we strive to provide a personalized
-        and collaborative experience. From the initial consultation to the final
-        delivery, we value open communication and ensure that you are involved
-        in the creative process every step of the way. Browse through our
-        portfolio and witness the creativity and skills of our artists. Whether
-        it's a gift for a loved one or a special piece for yourself, let us
-        transform your ideas into mesmerizing artworks. Thank you for visiting
-        our website, and we look forward to working with you to create something
-        truly remarkable.
-      </span>
-    </div>
-
-
-    </div>
     <script src="js/jquery.js"></script>
     <script src="js/materialize.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $(".sidenav").sidenav({
-          edge: "right",
-        });
-      });
-      $(".sidenav-close").sidenav().close;
-      $(document).ready(function () {
-        $(".parallax").parallax();
-      });
-    </script>
   </body>
 </html>

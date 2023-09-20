@@ -1,153 +1,37 @@
-@keyframes slide {
-  0% {
-    transform: translate(0);
-  }
-  100% {
-    transform: translate(-1366px); /* The image width */
-  }
-}
-
 body {
-  position: relative;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #171717;
-}
-
-/* Navigation Bar */
-
-.nav-wrapper {
   padding: 0 40px;
   background-color: #996e44ff;
 }
 
-.brand-logo img {
-  position: absolute;
-  top: 18px;
-  left: 18px;
-}
-
-/* On Large Screens */
-.list li a {
-  color: white !important;
-}
-.list li:hover {
-  background-color: #171717;
-}
-
-/* On Small Screens */
-.menu {
-  position: absolute;
-  right: -20px;
-  font-size: 40px !important;
-}
-
-/* Inside Side Navigation */
-
-.closeButton {
-  position: absolute;
-  top: 15px;
-  right: 20px;
-  font-size: 40px !important;
-}
-
-.sidenav {
-  background-color: #171717;
-}
-
-.choices {
-  padding-top: 80px;
-}
-
-.choices li a {
-  padding-bottom: 60px;
-  font-size: 1.4rem;
-  color: white;
-}
-
-.choices li:hover {
-  background-color: #996e44ff;
-  transition: 300ms ease-in-out;
-}
-
-/* Parallax Container */
-.section1 {
-  margin-top: -70px;
+.welcomePage {
   height: 100vh;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.section1 h2 {
-  margin-top: -5rem;
-  mix-blend-mode: difference;
-  transition: 100ms ease-in-out;
+.welcomeMessage p {
+  font-size: 1.5em;
+  margin-top: -5px;
 }
 
-.section1 h2:hover {
-  border-radius: 50px;
-  background-color: #996e44ff;
-  padding: 10px 20%;
-  mix-blend-mode: normal;
-  transform: translateY(-10px);
-
-  transition: 100ms ease-in-out;
-}
-
-.section1 h3 {
-  margin-top: -5rem;
-  mix-blend-mode: difference;
-}
-
-/* Description Design */
-.shape {
+.links {
   position: absolute;
-  left: 50;
+  bottom: 80px;
 }
 
-.shape img {
-  position: relative;
-  margin-top: -19rem;
-  width: 100%;
-}
-
-/* Description 1 */
-.section1Description {
-  position: absolute;
+.links ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: justify;
-  padding: 75px 75px;
+  flex-direction: row;
 }
 
-.section1Description span::first-letter {
-  font-size: 2em;
+.links ul li {
+  margin: 0px 30px;
+  transition: 100ms ease-in-out;
 }
 
-.section1Description span {
-  font-size: large;
-}
-
-@media screen and (max-width: 600px) {
-  .brand-logo img {
-    position: absolute;
-    top: 15px;
-    left: 16px;
-  }
-
-  .section1 {
-    height: 75vh;
-  }
-
-  .section1Description {
-    text-align: justify;
-    padding: 20px 30px 100px 30px;
-  }
-
-  .section1Description span {
-    font-size: medium;
-  }
+.links ul li:hover {
+  transform: translateY(-4px);
+  transition: 100ms ease-in-out;
 }
