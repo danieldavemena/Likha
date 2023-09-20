@@ -8,6 +8,7 @@
 }
 
 body {
+  position: relative;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -122,12 +123,12 @@ body {
   padding: 75px 75px;
 }
 
-footer {
-  display: flex;
-  background-color: #996e44ff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
+.section1Description span::first-letter {
+  font-size: 2em;
+}
+
+.section1Description span {
+  font-size: large;
 }
 
 @media screen and (max-width: 600px) {
@@ -142,8 +143,11 @@ footer {
   }
 
   .section1Description {
-    position: absolute;
     text-align: justify;
     padding: 20px 30px 100px 30px;
+  }
+
+  .section1Description span {
+    font-size: medium;
   }
 }
