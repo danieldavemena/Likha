@@ -1,6 +1,7 @@
 body {
   padding: 0 40px;
   background-color: #996e44ff;
+  overflow-y: hidden;
 }
 
 .welcomePage {
@@ -9,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateY(4em);
 }
 
 .welcomeMessage p {
@@ -26,9 +28,10 @@ body {
   margin-top: -20px;
 }
 
-.links {
-  position: absolute;
-  bottom: 110px;
+.pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pages ul li {
