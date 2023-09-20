@@ -68,3 +68,16 @@ body {
   background-color: #996e44ff;
   transition: 100ms ease-in-out;
 }
+
+.indexNav {
+  position: fixed;
+  bottom: 0;
+}
+
+.indexNav .navbar-fixed {
+  background-color: white;
+}
+
+.indexPages li a {
+  color: black;
+}

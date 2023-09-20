@@ -9,30 +9,29 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/materialize.min.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
   </head>
-  <body>
-    <div class="curtainAnimation">
-      <div></div>
-    </div>
-
-    <div class="navbar-fixed">
+  <body class="white">
+    <div class="aboutNav navbar-fixed">
       <nav>
         <div class="nav-wrapper">
           <!-- Navigation Bar Shown on Large Screens -->
           <a href="/index.html" class="brand-logo left"
             ><img src="/images/LikhaLogo1.svg" alt="" height="26px"
           /></a>
-          <ul class="list right hide-on-med-and-down">
-            <li class=""><a href="/about.html">About</a></li>
-            <li><a href="">Projects</a></li>
-            <li class=""><a href="#!">Contact</a></li>
-          </ul>
+
+          <div class="pages2 right hide-on-med-and-down">
+            <ul class="">
+              <li class=""><a href="/about.html">About</a></li>
+              <li><a href="">Projects</a></li>
+              <li class=""><a href="#!">Contact</a></li>
+            </ul>
+          </div>
 
           <!-- Navigation Bar Shown on Medium and Small Screen -->
           <a
             href=""
-            class="sidenav-trigger brand-logo center hide-on-large-only right"
+            class="sidenav-trigger hide-on-large-only right"
             data-target="sidenav1"
             ><i class="menu material-icons white-text">menu</i></a
           >
@@ -42,11 +41,6 @@
 
     <!-- Side Navigation -->
     <ul class="sidenav" id="sidenav1">
-      <div class="user-view">
-        <a href="#!" class="sidenav-close right white-text"
-          ><i class="closeButton material-icons">close</i></a
-        >
-      </div>
       <div class="choices right-align medium">
         <li>
           <a href="/about.html" class=""><span>About</span></a>
@@ -67,10 +61,6 @@
         $(".sidenav").sidenav({
           edge: "right",
         });
-      });
-      $(".sidenav-close").sidenav().close;
-      $(document).ready(function () {
-        $(".parallax").parallax();
       });
     </script>
   </body>
