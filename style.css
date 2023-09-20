@@ -12,18 +12,37 @@ body {
 }
 
 .welcomeMessage p {
-  font-size: 1.5em;
+  font-size: 2em;
   margin-top: -5px;
+}
+
+.links ul,
+.pages ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.pages {
+  margin-top: -20px;
 }
 
 .links {
   position: absolute;
-  bottom: 80px;
+  bottom: 110px;
 }
 
-.links ul {
-  display: flex;
-  flex-direction: row;
+.pages ul li {
+  padding: 0 60px;
+  background-color: white;
+  transition: 100ms ease-in-out;
+}
+
+.pages ul li a {
+  mix-blend-mode: difference;
+}
+
+.pages ul li a h5 {
+  font-size: 1.5em;
 }
 
 .links ul li {
@@ -33,5 +52,16 @@ body {
 
 .links ul li:hover {
   transform: translateY(-4px);
+  transition: 100ms ease-in-out;
+}
+
+.pages ul li:hover a {
+  mix-blend-mode: normal;
+  color: white;
+  transition: 100ms ease-in-out;
+}
+
+.pages ul li:hover {
+  background-color: #996e44ff;
   transition: 100ms ease-in-out;
 }
