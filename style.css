@@ -41,7 +41,7 @@ body {
 }
 
 .pages ul li a {
-  mix-blend-mode: difference;
+  color: #996e44ff;
 }
 
 .pages ul li a h5 {
@@ -55,11 +55,11 @@ body {
 
 .links ul li:hover {
   transform: translateY(-4px);
+  box-shadow: 0 5px 0px white;
   transition: 100ms ease-in-out;
 }
 
 .pages ul li:hover a {
-  mix-blend-mode: normal;
   color: white;
   transition: 100ms ease-in-out;
 }
@@ -71,6 +71,8 @@ body {
 
 .indexNav {
   position: fixed;
+  width: 100vw;
+  left: 0;
   bottom: 0;
 }
 
@@ -78,6 +80,14 @@ body {
   background-color: white;
 }
 
+.indexPages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .indexPages li a {
-  color: black;
+  margin: 0 9px;
+  text-decoration: underline solid 3px #996e44ff;
+  color: #996e44ff;
 }

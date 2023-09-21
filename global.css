@@ -1,0 +1,67 @@
+/* About Page Navigation */
+.body {
+  background-color: white;
+}
+
+.aboutNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.globalNav .nav-wrapper {
+  background-color: #996e44ff;
+  padding: 0 20px;
+}
+
+.brand-logo:hover {
+  transform: translateY(-3px);
+  border-bottom: 2px solid white;
+  transition: 100ms ease-in-out;
+}
+
+.pages2 ul li:hover {
+  background-color: white;
+}
+
+.pages2 ul li:hover a {
+  color: #996e44ff;
+}
+
+.sidenav-trigger {
+  margin-right: -10px !important;
+}
+
+.closeButton a i {
+  color: #996e44ff !important;
+  margin: 20px;
+}
+
+.sidenav {
+  width: 100vw;
+}
+
+.sidenavCategories {
+  padding-top: 200px;
+}
+
+.sidenavCategories li {
+  transition: 100ms ease-in-out;
+}
+
+.sidenavCategories li a {
+  margin-bottom: 30px;
+  color: #996e44ff;
+  font-size: 1.5em;
+  transition: 300ms ease-in-out;
+}
+
+.sidenavCategories li:hover {
+  background-color: #996e44ff;
+  transition: 300ms ease-in-out;
+}
+
+.sidenavCategories li:hover a {
+  color: white;
+  transition: 300ms ease-in-out;
+}
