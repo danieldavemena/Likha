@@ -14,6 +14,10 @@
   padding: 0 20px;
 }
 
+.brand-logo {
+  transition: 100ms ease-in-out;
+}
+
 .brand-logo:hover {
   transform: translateY(-3px);
   border-bottom: 2px solid white;
