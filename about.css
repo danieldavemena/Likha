@@ -10,11 +10,12 @@
     word-spacing: 2rem;
     text-align: center;
     padding: 3rem;
+    top: 45%;
+    bottom: 50%;
     color: white;
 }
 
 .headBanner .pc {
-    bottom: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,9 +34,6 @@
     justify-content: center;
     align-items: center;
     gap: 2em;
-    top: 40%;
-    bottom: 40%;
-    border-radius: 0;
     width: 100%;
 }
 
