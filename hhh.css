@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.pangalan {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    background-color: black;
+}
+
+.ppp ul {
+    display: flex;
+
+    justify-content: right;
+}
+
+.ppp ul li {
+    color: white;
+    
+}

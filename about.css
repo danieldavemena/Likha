@@ -1,0 +1,74 @@
+.headBanner {
+    
+    height: 100vh;
+}
+
+.headBanner div {
+    background-color: transparent;
+    position: absolute; 
+    right: 0;
+    word-spacing: 2rem;
+    text-align: center;
+    padding: 3rem;
+    color: white;
+}
+
+.headBanner .pc {
+    bottom: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    width: 50%;
+}
+
+
+
+.headBanner .pc h5 {
+    font-size: 2.5rem;
+}
+
+.headBanner .mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    top: 40%;
+    bottom: 40%;
+    border-radius: 0;
+    width: 100%;
+}
+
+.headBanner .mobile h6{
+    font-size: 3rem;
+}
+
+.info {
+    width: 50%;
+    border-radius: 10px;
+    background-color: #996e44ff;
+    color: white;
+    margin: 1rem;
+    padding: 4rem;
+}
+
+.info h4 {
+    font-weight: 600;
+}
+
+.info p {
+    margin-top: 3rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 992px) {
+
+
+    .headBanner img {
+        width: 120px !important;
+    }
+
+    .headBanner .mobile h6 {
+        font-size: 2rem ;
+    }
+}

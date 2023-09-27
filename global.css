@@ -1,6 +1,7 @@
 /* About Page Navigation */
-.body {
-  background-color: white;
+body {
+  overflow-x: hidden;
+  background-color: #171717;
 }
 
 .aboutNav {
