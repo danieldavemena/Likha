@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 1.75rem;
     width: 100%;
 }
 
@@ -42,31 +42,61 @@
 }
 
 .info {
+    flex-direction: column;
     width: 50%;
-    border-radius: 10px;
     background-color: #996e44ff;
     color: white;
-    margin: 1rem;
     padding: 4rem;
-}
-
-.info h4 {
-    font-weight: 600;
-}
-
-.info p {
-    margin-top: 3rem;
     text-align: justify;
 }
+
+.info h5 {
+    display: inline-flex;
+    padding: 1rem;
+    background-color: white;
+    color: #996e44ff;
+    font-weight: 600;
+    margin-bottom:2rem;
+}
+
+.info span {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.info div {
+    font-weight: bold;
+    background-color: white;
+    color: #996e44ff;
+    
+}
+
+.info div:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: #996e44ff ;
+}
+
 
 @media screen and (max-width: 992px) {
 
 
     .headBanner img {
-        width: 120px !important;
+        width: 100px !important;
     }
 
+
     .headBanner .mobile h6 {
-        font-size: 2rem ;
+        font-size: 1.5rem ;
+        gap: ;
     }
+
+    .info {
+        width: 100%;
+    }
+
+    .info h5 {
+        font-size: 2rem;
+    }
+
 }

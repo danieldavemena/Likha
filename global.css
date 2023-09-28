@@ -70,3 +70,14 @@ body {
   color: white;
   transition: 300ms ease-in-out;
 }
+
+footer ul {
+  height: 50px;
+  display: flex;
+  padding: 2rem 3rem;
+  gap: 3rem;
+  background-color: #996e44ff;
+  justify-content: right;
+  align-items: center;
+  flex-direction: row;
+}
