@@ -1,110 +1,100 @@
 .headBanner {
-    position: relative;
-    height: 100vh;
+  position: relative;
+  height: 100vh;
 }
 
 .headBanner div {
-    background-color: transparent;
-    position: absolute; 
-    right: 0;
-    word-spacing: 2rem;
-    text-align: center;
-    padding: 3rem;
-    top: 45%;
-    bottom: 50%;
-    color: white;
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  word-spacing: 2rem;
+  text-align: center;
+  padding: 3rem;
+  top: 45%;
+  bottom: 50%;
+  color: white;
 }
 
 .headBanner .pc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2.5rem;
-    width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  width: 50%;
 }
 
-
-
 .headBanner .pc h5 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .headBanner .mobile {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.75rem;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+  width: 100%;
 }
 
-.headBanner .mobile h6{
-    font-size: 3rem;
+.headBanner .mobile h6 {
+  font-size: 3rem;
 }
 
 .info {
-    flex-direction: column;
-    width: 50%;
-    background-color: #996e44ff;
-    color: white;
-    padding: 4rem;
-    text-align: justify;
+  flex-direction: column;
+  width: 50%;
+  background-color: #996e44ff;
+  color: white;
+  padding: 4rem;
+  text-align: justify;
 }
 
 .info h5 {
-    display: inline-flex;
-    padding: 1rem;
-    background-color: white;
-    color: #996e44ff;
-    font-weight: 600;
-    margin-bottom:2rem;
+  display: inline-flex;
+  padding: 1rem;
+  background-color: white;
+  color: #996e44ff;
+  font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .info span {
-    display: block;
-    margin-bottom: 2rem;
+  display: block;
+  margin-bottom: 2rem;
 }
 
 .info div {
-    font-weight: bold;
-    background-color: white;
-    color: #996e44ff;
-    
+  font-weight: bold;
+  background-color: white;
+  color: #996e44ff;
 }
 
 .info div a {
-    color: #996e44ff;
+  color: #996e44ff;
 }
 
 .info div:hover {
-    border: 2px solid white;
-    
-    background-color: #996e44ff ;
+  border: 2px solid white;
+  background-color: #996e44ff;
 }
 
 .info div:hover a {
-    color: white;
+  color: white;
 }
 
-
 @media screen and (max-width: 992px) {
+  .headBanner img {
+    width: 100px !important;
+  }
 
+  .headBanner .mobile h6 {
+    font-size: 1.5rem;
+  }
 
-    .headBanner img {
-        width: 100px !important;
-    }
+  .info {
+    width: 100%;
+  }
 
-
-    .headBanner .mobile h6 {
-        font-size: 1.5rem ;
-        gap: ;
-    }
-
-    .info {
-        width: 100%;
-    }
-
-    .info h5 {
-        font-size: 2rem;
-    }
-
+  .info h5 {
+    font-size: 2rem;
+  }
 }
