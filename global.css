@@ -71,6 +71,10 @@ body {
   transition: 300ms ease-in-out;
 }
 
+footer {
+  margin-bottom: -3rem;
+}
+
 footer ul {
   height: 50px;
   display: flex;

@@ -1,5 +1,5 @@
 .headBanner {
-    
+    position: relative;
     height: 100vh;
 }
 
@@ -71,10 +71,18 @@
     
 }
 
+.info div a {
+    color: #996e44ff;
+}
+
 .info div:hover {
     border: 2px solid white;
-    color: white;
+    
     background-color: #996e44ff ;
+}
+
+.info div:hover a {
+    color: white;
 }
 
 
