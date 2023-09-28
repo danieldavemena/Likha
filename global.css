@@ -19,12 +19,6 @@ body {
   transition: 100ms ease-in-out;
 }
 
-.brand-logo:hover {
-  transform: translateY(-3px);
-  border-bottom: 2px solid white;
-  transition: 100ms ease-in-out;
-}
-
 .pages2 ul li:hover {
   background-color: white;
 }
