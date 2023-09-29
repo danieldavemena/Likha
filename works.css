@@ -78,24 +78,22 @@
 }
 
 .renderPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 5;
   height: auto;
   width: 100vw;
   background-color: #996e44ff;
   position: absolute;
   padding: 2.5rem;
-
   top: 0;
   left: 0;
 }
 
-.renderPage ul {
-  display: inline-flex;
-  flex-direction: row;
-}
-
 .renderPage ul li {
-  background-color: white;
+  display: inline-flex;
+  width: 50%;
 }
 
 .renderPage ul li img {
