@@ -1,0 +1,65 @@
+.teamLinks {
+  margin: 1rem 7rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.teamLinks .card {
+  background-color: #996e44ff;
+  border-radius: 10px;
+  transition: 100ms ease-out;
+}
+
+.teamLinks .card .desc {
+  font-weight: bold;
+  text-align: justify;
+}
+
+.teamLinks .card .desc h5 {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  color: white;
+  background-color: #996e44ff;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.teamLinks .card .desc p {
+  color: #996e44ff;
+  margin-bottom: 4rem;
+}
+
+.teamLinks .card .btn {
+  margin-top: -2rem;
+  background-color: #996e44ff;
+}
+
+.teamLinks .card .btn a {
+  color: white;
+}
+
+.teamLinks .card .btn:hover {
+  background-color: white;
+}
+
+.teamLinks .card .btn:hover a {
+  text-decoration: underline solid #996e44ff;
+  color: #996e44ff;
+}
+
+.teamLinks .card:hover {
+  transition: 100ms ease-in;
+  scale: 1.04;
+}
+
+@media screen and (max-width: 992px) {
+  .teamLinks {
+    display: block;
+    margin: 1rem 1rem;
+  }
+
+  .teamLinks .card {
+    margin-bottom: 2rem;
+  }
+}

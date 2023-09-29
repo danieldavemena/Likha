@@ -4,17 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Likha Art Studio</title>
-    <link rel="stylesheet" href="/aos/dist/aos.css">
+    <link rel="stylesheet" href="/aos/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/materialize.min.css" />
-    <link rel="stylesheet" href="/works.css">
+    <link rel="stylesheet" href="/works.css" />
     <link rel="stylesheet" href="/global.css" />
   </head>
   <body>
-    
     <!-- Global Navigation bar -->
     <div class="globalNav navbar-fixed">
       <nav>
@@ -46,40 +45,40 @@
     <!-- Side Navigation -->
     <ul class="sidenav" id="sidenav1">
       <div class="closeButton medium">
-        <a href="#!" class="sidenav-close sidenavClose" ><i class="material-icons right">close</i></a>
+        <a href="#!" class="sidenav-close sidenavClose"
+          ><i class="material-icons right">close</i></a
+        >
       </div>
 
-        <div class="sidenavCategories center-align medium">
-          <li>
-            <a href="/about.html" class="">About</a>
-          </li>
-          <li>
-            <a href="/works.html">Works</a>
-          </li>
-          <li>
-            <a href="/team.html">Team</a>
-          </li>
-        </div>
+      <div class="sidenavCategories center-align medium">
+        <li>
+          <a href="/about.html" class="">About</a>
+        </li>
+        <li>
+          <a href="/works.html">Works</a>
+        </li>
+        <li>
+          <a href="/team.html">Team</a>
+        </li>
+      </div>
     </ul>
 
-
-  <!-- Categories -->
+    <!-- Categories -->
     <div class="categories">
-      <div class=" aos-item renders " data-aos="fade-left"  data-aos-delay="200">
+      <div class="aos-item renders" data-aos="fade-left" data-aos-delay="200">
         <div class="bg imageCover3"></div>
         <h4>3D RENDERS</h4>
       </div>
-      <div class=" aos-item painting " data-aos="fade-right"  data-aos-delay="200">
+      <div class="aos-item painting" data-aos="fade-right" data-aos-delay="200">
         <div class="bg imageCover2"></div>
         <h4>PAINTING</h4>
       </div>
-      <div class="aos-item pixelArt " data-aos="fade-left"  data-aos-delay="200">
+      <div class="aos-item pixelArt" data-aos="fade-left" data-aos-delay="200">
         <div class="bg imageCover1"></div>
         <h4>PIXEL ART</h4>
-        <input type="checkbox" class="button">  
+        <input type="checkbox" class="button" />
       </div>
     </div>
-    
 
     <!-- Page footer for all pages -->
     <footer class="">
@@ -104,7 +103,7 @@
     <script src="js/materialize.min.js"></script>
     <script src="/aos/dist/aos.js"></script>
     <script>
-      AOS.init()
+      AOS.init();
 
       $(document).ready(function () {
         $(".sidenav").sidenav({
@@ -113,8 +112,8 @@
       });
 
       $(document).ready(function () {
-        $(".carousel").carousel()
-      })
+        $(".carousel").carousel();
+      });
     </script>
   </body>
 </html>
