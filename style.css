@@ -1,7 +1,30 @@
+@keyframes infiSlide {
+  to {
+    background-position: -100vw 0;
+  }
+}
+
 body {
   padding: 0 40px;
   background-color: #996e44ff;
-  overflow-y: hidden;
+  overflow: hidden;
+}
+
+.bg {
+  animation: infiSlide 4s linear infinite;
+  background: url(/images/index.png) repeat-x;
+  filter: blur(8px);
+  background-size: 100vw auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bg div {
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.7;
+  background-color: #996e44ff;
 }
 
 .welcomePage {
