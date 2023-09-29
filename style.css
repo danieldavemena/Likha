@@ -12,7 +12,7 @@ body {
 
 .bg {
   animation: infiSlide 4s linear infinite;
-  background: url(/images/index.png) repeat-x;
+  background: url(/images/index.png) repeat;
   filter: blur(8px);
   background-size: 100vw auto;
   position: absolute;
