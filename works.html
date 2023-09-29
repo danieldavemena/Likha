@@ -65,19 +65,56 @@
 
     <!-- Categories -->
     <div class="categories">
-      <div class="aos-item renders" data-aos="fade-left" data-aos-delay="200">
-        <div class="bg imageCover3"></div>
-        <h4>3D RENDERS</h4>
-      </div>
-      <div class="aos-item painting" data-aos="fade-right" data-aos-delay="200">
-        <div class="bg imageCover2"></div>
-        <h4>PAINTING</h4>
-      </div>
-      <div class="aos-item pixelArt" data-aos="fade-left" data-aos-delay="200">
-        <div class="bg imageCover1"></div>
-        <h4>PIXEL ART</h4>
-        <input type="checkbox" class="button" />
-      </div>
+      <a href="#!" class="category1">
+        <div
+          class="art aos-item renders"
+          data-aos="fade-left"
+          data-aos-delay="200"
+        >
+          <div class="bg imageCover3"></div>
+          <h4>3D RENDERS</h4>
+        </div>
+      </a>
+      <a href="">
+        <div
+          class="art aos-item painting"
+          data-aos="fade-right"
+          data-aos-delay="200"
+        >
+          <div class="bg imageCover2"></div>
+          <h4>PAINTING</h4>
+        </div>
+      </a>
+      <a href="">
+        <div
+          class="art aos-item pixelArt"
+          data-aos="fade-left"
+          data-aos-delay="200"
+        >
+          <div class="bg imageCover1"></div>
+          <h4>PIXEL ART</h4>
+          <input type="checkbox" class="button" />
+        </div>
+      </a>
+    </div>
+
+    <!-- renders -->
+    <div class="renderPage hide" data-aos="fade-in" data-aos-delay="500ms">
+      <ul>
+        <li>
+          <img src="/images/works/3dRenders/Oni (1).png" alt="" width="500px" />
+        </li>
+        <li>
+          <img
+            src="/images/works/3dRenders/Kirby_edit_1278156643867989.png"
+            alt=""
+            width="500px"
+          />
+        </li>
+        <li>
+          <img src="/images/works/3dRenders/The Man.png" alt="" width="500px" />
+        </li>
+      </ul>
     </div>
 
     <!-- Page footer for all pages -->
@@ -104,6 +141,17 @@
     <script src="/aos/dist/aos.js"></script>
     <script>
       AOS.init();
+
+      $(".category1").click(function () {
+        $(".globalNav").addClass("hide");
+
+        $(".art").addClass("hide");
+
+        $("footer").addClass("hide");
+
+        $(".renderPage").removeClass("hide");
+        $(".renderPage").addClass("aos-item");
+      });
 
       $(document).ready(function () {
         $(".sidenav").sidenav({
