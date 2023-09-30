@@ -48,7 +48,7 @@
 }
 
 .categories .painting .imageCover2 {
-  background: url(/images/works/paintings/Apple.png);
+  background: url(/images/works/paintings/anne.jpg);
   background-size: cover;
   filter: blur(8px);
   -webkit-filter: blur(8px);
@@ -57,6 +57,14 @@
 
 .categories .renders .imageCover3 {
   background: url(/images/works/3dRenders/Kirby_edit_1278156643867989.png);
+  background-size: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  width: 100%;
+}
+
+.categories .pencils .imageCover4 {
+  background: url(/images/works/pencils/cooper.jpg);
   background-size: cover;
   filter: blur(8px);
   -webkit-filter: blur(8px);

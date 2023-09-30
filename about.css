@@ -60,8 +60,8 @@
 .info {
   margin-bottom: -1rem;
   flex-direction: column;
-  width: 50%;
-  background-color: #996e44ff;
+  width: 70%;
+  background-color: transparent;
   color: white;
   padding: 4rem;
   text-align: justify;
@@ -70,8 +70,8 @@
 .info h5 {
   display: inline-flex;
   padding: 1rem;
-  background-color: white;
-  color: #996e44ff;
+  background-color: #996e44ff;
+  color: white;
   font-weight: 600;
   margin-bottom: 2rem;
 }
@@ -83,21 +83,20 @@
 
 .info div {
   font-weight: bold;
-  background-color: white;
-  color: #996e44ff;
-}
-
-.info div a {
-  color: #996e44ff;
-}
-
-.info div:hover {
-  border: 2px solid white;
   background-color: #996e44ff;
 }
 
-.info div:hover a {
+.info div a {
   color: white;
+}
+
+.info div:hover {
+  border: 2px solid #996e44ff;
+  background-color: #171717;
+}
+
+.info div:hover a {
+  color: #996e44ff;
 }
 
 @media screen and (max-width: 992px) {
