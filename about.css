@@ -1,12 +1,28 @@
 .headBanner {
   position: relative;
-  background: url(/images/bitmap.png) no-repeat;
-  background-size: auto 100vh;
   height: 100vh;
 }
 
-.headBanner div {
+.headBanner .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: url(/images/aboutBG.png) no-repeat;
+  background-size: auto 100%;
+  filter: blur(4px);
+}
+
+.headBanner .bg div {
   background-color: #996e44ff;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.3;
+}
+
+.headBanner div {
   position: absolute;
   right: 0;
   word-spacing: 2rem;
@@ -42,6 +58,7 @@
 }
 
 .info {
+  margin-bottom: -1rem;
   flex-direction: column;
   width: 50%;
   background-color: #996e44ff;
