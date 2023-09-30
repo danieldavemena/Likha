@@ -1,7 +1,7 @@
 .headBanner {
   position: relative;
   background: url(/images/bitmap.png);
-  background-size: 100vh auto;
+  background-size: 100% auto;
   height: 100vh;
 }
 
